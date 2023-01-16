@@ -411,14 +411,11 @@ button {
 /*@@@@@@@@@@@@@@@@@@@@@############ for-desktop-up @@@@@@@@@@@@@@@@@@@@*/
 @media (min-width: 1200px) {
   body {
-    width: 1440px;
-    height: auto;
     background: #0c122c;
     background-image: url(./images/bg-desktop.png);
     background-size: auto;
     background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y: bottom;
+    background-position: 0% 180%;
   }
 
   main {
