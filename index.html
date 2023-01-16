@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Fylo data storage component</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+      body {
+        font-family: "Raleway", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="first-container">
+        <img class="logo" src="./images/logo.svg" alt="logo" />
+        <div class="three-icons-container">
+          <div class="icon-container icon-container-document">
+            <img src="./images/icon-document.svg" alt="icon-document" />
+          </div>
+          <div class="icon-container icon-container-folder">
+            <img src="./images/icon-folder.svg" alt="icon-folder" />
+          </div>
+          <div class="icon-container icon-container-upload">
+            <img src="./images/icon-upload.svg" alt="icon-upload" />
+          </div>
+        </div>
+      </div>
+      <div class="usage-container">
+        <h1>You’ve used <strong>815 GB</strong> of your storage</h1>
+        <div class="bar">
+          <div class="visual">
+            <div class="pink">
+              <div class="white-oval"></div>
+            </div>
+          </div>
+          <div class="numbers">
+            <p class="numbers__p">0 GB</p>
+            <p class="numbers__p">1000 GB</p>
+          </div>
+          <div class="box-absolute">
+            <p class="box-absolute__p1">185</p>
+            <p class="box-absolute__p2">GB LEFT</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
