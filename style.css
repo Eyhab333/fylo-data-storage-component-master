@@ -229,8 +229,7 @@ button {
     color: #0c122c;
     margin-right: 9px;
   }
-} 
-
+}
 
 /*@@@@@@@@@@@@@@@@@@@@@############ for-tablet-landscape-up @@@@@@@@@@@@@@@@@@@@*/
 @media (min-width: 600px) {
@@ -412,10 +411,20 @@ button {
 @media (min-width: 1200px) {
   body {
     background: #0c122c;
-    background-image: url(./images/bg-desktop.png);
-    background-size: auto;
-    background-repeat: no-repeat;
-    /* background-position: 0% 180%; */
+    width: 1440px;
+  }
+
+  .bg-desktop {
+    position: absolute;
+    z-index: -1;
+    right: -7%;
+    bottom: -25%;
+    width: 1440px;
+  }
+
+  .bg-desktop__img {
+    object-fit: cover;
+    width: 100%;
   }
 
   main {
@@ -581,4 +590,3 @@ button {
     right: 0;
   }
 }
-
