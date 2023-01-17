@@ -412,10 +412,10 @@ button {
 @media (min-width: 1200px) {
   body {
     background: #0c122c;
-    /* background-image: url(./images/bg-desktop.png); */
+    background-image: url(./images/bg-desktop.png);
     background-size: auto;
     background-repeat: no-repeat;
-    background-position: 0% 180%;
+    /* background-position: 0% 180%; */
   }
 
   main {
