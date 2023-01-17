@@ -417,8 +417,8 @@ button {
   .bg-desktop {
     position: absolute;
     z-index: -1;
-    right: -7%;
-    bottom: -25%;
+    right: 0;
+    bottom: 0;
     width: 1440px;
   }
 
